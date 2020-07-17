@@ -3,7 +3,7 @@ const forecast = require('./utils/forecast')
 
 const address = process.argv[2]
 
-if(!address){
+if(!address){ 
     console.log("Address required")
 }
 else{
